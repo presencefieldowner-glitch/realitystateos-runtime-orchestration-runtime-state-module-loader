@@ -1,0 +1,12 @@
+{
+  "name": "@realitystateos/bootstrap",
+  "version": "0.1.0",
+  "private": true,
+  "license": "UNLICENSED",
+  "description": "RealityStateOS module 001 — Bootstrap (layered TOML config loading, StartupPipeline, HealthValidation, RecoveryManager). Proprietary — see root LICENSE.md.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": { "build": "tsc", "test": "tsc && node dist/test.js" },
+  "dependencies": { "smol-toml": "^1.7.0" },
+  "devDependencies": { "typescript": "^5.9.3", "@types/node": "^22.0.0" }
+}

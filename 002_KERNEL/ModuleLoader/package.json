@@ -1,0 +1,11 @@
+{
+  "name": "@realitystateos/module-loader",
+  "version": "0.1.0",
+  "private": true,
+  "license": "UNLICENSED",
+  "description": "RealityStateOS Kernel module — ModuleLoader (topological dependency ordering + lifecycle for Kernel modules). Proprietary — see root LICENSE.md.",
+  "main": "dist/moduleLoader.js",
+  "types": "dist/moduleLoader.d.ts",
+  "scripts": { "build": "tsc", "test": "tsc && node dist/test.js" },
+  "devDependencies": { "typescript": "^5.9.3", "@types/node": "^22.0.0" }
+}
